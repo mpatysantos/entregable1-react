@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+
+
+*,
+*::after, 
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5,
+h6 {
+   margin: 0;
+}
+
+.fortune-text {
+    font-family: 'Bungee Spice', cursive; 
+    font-size: 50px;
+    grid-column: 1;
+    
+}
+
+.fortune-title {
+    
+    font-size: 30px;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-lucky {
+    font-size: 20px;
+    background-color: chocolate;
+    border-radius: 1rem;
+    border: 7px double #000;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.quote-phrase {
+   font-family: 'Comic Neue', cursive;
+   font-size: 20px;
+   width: 80%;
+   height: 150px;
+   background-color: bisque;
+   margin: 30px 50px;
+   border: 7px double #000;
+   padding: 6.8%;
+   
+}
+
